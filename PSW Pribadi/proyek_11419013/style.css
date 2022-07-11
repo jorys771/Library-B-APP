@@ -1,0 +1,322 @@
+*
+{
+    font-family: "Times New Roman", Times, serif;
+    margin: 0px;
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+thead
+{
+    background-color: rgba(252, 17, 0, 0.308);
+}
+
+a 
+{
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: rgba(116, 116, 116, 0.493);
+}
+
+
+td .h-edit:hover
+{
+    color: rgba(218, 123, 0, 0.575);
+}
+
+td .delete:hover
+{
+    color: rgba(202, 0, 0, 0.733);
+}
+
+.index-body
+{
+    margin-top: 15%;
+    background-color: rgba(65, 8, 8, 0.288);
+}
+
+.index-body p
+{
+    height: 175px;
+    font-size: 100px;
+    font-family: fantasy;
+    background-color: rgba(119, 24, 24, 0.116);
+}
+
+.index-btn
+{
+    border: 1px solid;
+    width: 150px;
+    border-radius: 3px;
+    background: transparent ;
+    color: black;
+    font-size: 20px;
+    padding: 10px 25px;
+    margin: 10px;
+    font-family: fantasy;
+    background-color: rgba(255, 187, 0, 0.808);
+}
+
+.h-kunjung:hover
+{
+    color: rgba(221, 90, 2, 0.76)
+}
+
+.h-login:hover
+{
+    color: rgba(7, 7, 167, 0.774);
+}
+
+.login
+{
+	width:380px;
+	height:148px;
+    margin-top: 55px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.479);
+    background-color: rgba(146, 146, 146, 0.103);
+}
+
+.login input
+{
+    margin: 2%;
+    padding: 10px;
+    width: 54%;
+    float: left;
+}
+
+.login button
+{
+    margin: 2%;
+    margin-top: 15px;
+    padding: 8px;
+    width: 18%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.login button:hover
+{
+    background-color: rgba(0, 0, 255, 0.76);
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.login a 
+{
+    color: rgb(116, 116, 116);
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.login a:hover
+{
+    color: red;
+}
+
+.login_error
+{
+    margin: 2%;
+    padding: 10px;
+    width: 53%;
+    float: left;
+    background-color: rgb(253, 183, 183);
+    border-color: rgba(255, 55, 55, 0.815);
+}
+
+.daftar
+{
+	width:380px;
+	height:570px;
+    margin-top: 45px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.479);
+    background-color: rgba(146, 146, 146, 0.103);
+}
+
+.daftar p
+{
+    font-size: 30px;
+    color: rgb(116, 116, 116);
+}
+
+.daftar input
+{
+    margin: 2%;
+    padding: 10px;
+    width: 95%;
+}
+
+.daftar select
+{
+    margin: 1%;
+    padding: 10px;
+    width: 25%;
+}
+
+.daftar button
+{
+    margin: 1%;
+    padding: 8px;
+    width: 35%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+.daftar button img
+{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+.daftar button img:hover
+{
+    background-color: rgba(255, 255, 255, 0.068);
+}
+
+.daftar button:hover
+{
+    background-color: rgba(0, 0, 255, 0.904);
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.daftar a 
+{
+    margin-left: -80%;
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+}
+.daftar a:hover
+{
+    color: red;
+}
+
+/* .header > ul > li
+{
+    float: left;
+} */
+
+.e_a_buku
+{
+	width:380px;
+	height:510px;
+    margin-top: 75px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.479);
+    background-color: rgba(146, 146, 146, 0.103);
+}
+
+.e_a_buku p
+{
+    font-size: 30px;
+    color: rgb(116, 116, 116);
+    padding-top: 10px;
+}
+
+.e_a_buku input
+{
+    margin: 2%;
+    padding: 10px;
+    width: 95%;
+}
+
+.e_a_buku select
+{
+    margin: 1%;
+    padding: 10px;
+    width: 25%;
+}
+
+.e_a_buku button
+{
+    margin: 1%;
+    padding: 8px;
+    width: 35%;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.e_a_buku button:hover
+{
+    background-color: rgba(0, 0, 255, 0.904);
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.e_a_buku a 
+{
+    margin-left: -80%;
+    color: rgb(116, 116, 116);
+    text-decoration: none;
+}
+.e_a_buku a:hover
+{
+    color: red;
+}
+
+.header li a 
+{
+    display: inline-block;
+    color: rgba(15, 0, 230, 0.74);
+    padding: 8px;
+    text-decoration: none;
+}
+
+.header li a:hover
+{
+    color: rgba(255, 217, 4, 0.616);
+}
+
+.header li
+{
+    
+    margin: 1%;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.527);
+    border: none;
+}
+
+.header li img
+{
+    margin: 0%;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+}
+
+.header li a:hover
+{
+    background-color: rgba(255, 255, 255, 0.034);
+}
+
+
+.H_L ul
+{
+    list-style-type: none;
+    padding: 0px;
+    padding-bottom: auto;
+    overflow: hidden;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.527);
+
+}
+
+.H_R ul
+{
+    list-style-type: none;
+    padding: 0px;
+    padding-bottom: auto;
+    overflow: hidden;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.527);
+
+}
